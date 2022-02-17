@@ -51,7 +51,7 @@ export default function GiftsAR() {
       <div className="callout">
         <div className="wrapper">
           <p>
-            Powered by Apple's ARKit framework, by positioning your camera over the object,
+            Powered by Apple’s ARKit framework, by positioning your camera over the object,
             the app automatically genarates the approximate measurements, then provides the
             length and width of the material needed to cover your gift.
           </p>
