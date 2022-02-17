@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
-import Image from "next/image";
 
 export default function Nav() {
   const [open, setOpen] = React.useState(false);
-  const toggleMenuOpen = (event) => {
+
+  const toggleOpen = (event) => {
     event.preventDefault();
     setOpen(!open);
   };
@@ -16,24 +16,27 @@ export default function Nav() {
         <div className="wrapper">
           <ul>
             <li className="home">
-              <Link href="/" passHref className="home__icon">
-                  <Image src="/images/gem-icon.gif" alt="Gem" className="logo" />
-
+              <Link href="/">
+                <a className="home__icon">
+                  <img src="/images/gem-icon.gif" alt="Gem" className="logo" />
+                </a>
               </Link>
-              <Link href="/" passHref className="home__name">Jen Arevalo
+              <Link href="/">
+                <a className="home__name">Jen Arevalo</a>
               </Link>
             </li>
           </ul>
           <ul>
             <li>
-              <Link href="/about" passHref>
-                About
+              <Link href="/about">
+                <a>About</a>
               </Link>
             </li>
             <li className="menu">
-              <Link href="#" passHref onClick={toggleMenuOpen}>
+              {/* Technically, this should be a `button`. */}
+              <a href="#" onClick={toggleOpen}>
                 <i className="zmdi zmdi-menu" />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
