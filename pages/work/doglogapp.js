@@ -32,7 +32,7 @@ export default function DogLogApp() {
               <ul>
                 <li>
                   Client:{" "}
-                  <a href="https://www.k9sforwarriors.org/" target="_blank">
+                  <a href="https://www.k9sforwarriors.org/" rel="noopener noreferrer">
                     K9s For Warriors
                   </a>
                 </li>
@@ -41,7 +41,7 @@ export default function DogLogApp() {
               <ul>
                 <li>
                   Team:{" "}
-                  <a href="http://cronfu.com/" target="_blank">
+                  <a href="http://cronfu.com/" rel="noopener noreferrer">
                     Jimmy Thai
                   </a>
                   , Olivia Whitt
@@ -62,7 +62,7 @@ export default function DogLogApp() {
                 trainers accomplish high-touch continued outreach with veterans
                 and their dogs.
               </p>
-              <a href="https://invis.io/JM9ITTS82" target="_blank">
+              <a href="https://invis.io/JM9ITTS82" rel="noopener noreferrer">
                 Check out the first prototype.
               </a>
             </div>

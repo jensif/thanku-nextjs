@@ -40,12 +40,12 @@ export default function ArtFactory() {
           <div className="summary__credits">
           <ul>
             <li>Client: {" "}
-              <a href="https://www.virginiaartfactory.org/" target="_blank">
+              <a href="https://www.virginiaartfactory.org/" rel="noopener noreferrer">
               Virginia ArtFactory
               </a>
             </li>
               <li>Creative Director: Shane Santiago,  {" "}
-                <a href="https://www.bravelycreated.com/" target="_blank">Bravely</a> </li>
+                <a href="https://www.bravelycreated.com/" rel="noopener noreferrer">Bravely</a> </li>
                 </ul>
                 <ul>
             <li>Role: Visual Design, UI/UX, Front-end</li>
@@ -82,7 +82,7 @@ creative community for young and old.
 archetype exercise in which the specific characteristics of
 the CFA brand were mapped to one of twelve identities. Based on the present and desired
 brand personality, the archetype that best identifies CFA is “The Creator,” with
-elements of “The Caregiver” and “The Innocent.” Expressive, original, and imaginative, but very optimistic,
+elements of &lsquo;The Caregiver&lsquo; and &lsquo;The Innocent.&lsquo; Expressive, original, and imaginative, but very optimistic,
 compassionate, nurturing and caring: “We’re helping raise
 kids (enrich the kids in all of us) and change lives as much
 as we’re teaching art.”
@@ -147,7 +147,7 @@ Etsy, and Adobe. Sketches were developed to portray the new look and feel of the
       <div className="callout">
         <div className="wrapper">
           <p>
-          CFA's existing website was antiquated and lacked a digital focus, so Bravely needed
+          CFA’s existing website was antiquated and lacked a digital focus, so Bravely needed
           to right the ship because much of the traffic would be directed to
           the site for calendar of events, ticket sales, and workshops. We would
           design mobile, tablet, and desktop verions of the site with WordPress as the publishing tool for the content management
@@ -194,7 +194,7 @@ Etsy, and Adobe. Sketches were developed to portray the new look and feel of the
           <p>
           As Jeff and I wrapped up front-end styles for the template development and integrated the CMS,
           the team set up a training to help the CFA staff understand how to be hands-on with the site
-          and migrate the content for the site. Jeff, Shane, and myself QA'd to ensure
+          and migrate the content for the site. Jeff, Shane, and myself QA’d to ensure
           the site was rendering properly.
           </p>
         </div>

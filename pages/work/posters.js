@@ -52,13 +52,10 @@ export default function Posters() {
           </div>
           <div className="summary__description">
             <p>
-              At the tail end of each summer, AIGA Jacksonville hosts the{" "}
-              <Link href="/work/alwayssummer">
-                <a>Always Summer Poster Show + Mixtape</a>
-              </Link>
-              . A premiere event for hosting the greater Jacksonville design
+              At the tail end of each summer, AIGA Jacksonville hosts the Always Summer
+              Poster Show + Mixtape. A premiere event for hosting the greater Jacksonville design
               scene, the organization asks designers to participate in the
-              gallery event. The past six consecutive years, I've been able to
+              gallery event. The past six consecutive years, I’ve been able to
               submit artwork for the show. I became interested in the event
               because it married my two favorite loves: design and music. Each
               year, I attempt to challenge my artistic boundaries.
@@ -70,12 +67,12 @@ export default function Posters() {
         <div className="wrapper">
           <p>
             In 2012, I first experimented with low-poly illustrations. Using
-            black and white hues for Notorious B.I.G "Party & Bullshit (Ratatat
-            Remix)," I found it easier to manipulate the gradients and connect
+            black and white hues for Notorious B.I.G &quot;Party & Bullshit (Ratatat
+            Remix),&quot; I found it easier to manipulate the gradients and connect
             each of the polygons to create a futuristic figure with depth. This
             poster measured 24 x 36. It was a biggie! I was pleased with the
             outcome and decided to flex my geometric illustrations again in 2016
-            for the Beyoncé track "Sorry".
+            for the Beyoncé track &quot;Sorry&quot;.
           </p>
         </div>
       </div>
@@ -116,8 +113,8 @@ export default function Posters() {
             listened to the song playing in the gallery.The music should do the
             talking while the posters serving as the visual extension.
             Simplistic yet so stylistic. The poster on the left is Dan le Sac vs
-            Scroobius Pip "Cauliflower" (PRDCTV Remix). The poster on the right
-            is Architecture In Helsinki "Escapee" (Polish Ambassador Remix).
+            Scroobius Pip &quot;Cauliflower&quot; (PRDCTV Remix). The poster on the right
+            is Architecture In Helsinki &quot;Escapee&quot; (Polish Ambassador Remix).
           </p>
         </div>
       </div>
@@ -145,7 +142,7 @@ export default function Posters() {
         <div className="wrapper">
           <p>
             For 2014, I created two posters for one song. Father John Misty
-            "Honeybear" reverbs with striking contrasts in the lyrics. The back
+            &quot;Honeybear&quot; reverbs with striking contrasts in the lyrics. The back
             and forth tug of everything being doomed, but everything being fine
             is enough to leave one lost in emotion. The track inspired a
             (functioning) maze with the words embedded into it all leading up to
@@ -181,13 +178,13 @@ export default function Posters() {
             iPhone with electronic music for the multiple hikes, I became hooked
             on Odesza and Jamie XX. At the time of my visit to British Columbia,
             fires engulfed most of the forests in Vancouver. It was one of the
-            hottest, driest summers. The left poster is for Odesza "Sun Models"
-            track. Inspired by the Copernican Model, "the Sun would be the
-            embodiment of the eternal, all-powerful, and light and life-giving,"
+            hottest, driest summers. The left poster is for Odesza &quot;Sun Models&quot;
+            track. Inspired by the Copernican Model, &quot;the Sun would be the
+            embodiment of the eternal, all-powerful, and light and life-giving,&quot;
             powerful enough to cover the mountains of BC in a blanket of smoke.
           </p>
           <p>
-            The poster on the right is for Jamie XX's "Good Times". After
+            The poster on the right is for Jamie XX’s &quot;Good Times&quot;. After
             leaving the mountains of Vancouver, I took a ferry to Victoria and
             enjoyed the pristine Canadian waters. Good times were had in
             Victoria.

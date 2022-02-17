@@ -42,9 +42,7 @@ export default function Lettering() {
           </div>
           <div className="summary__description">
             <p>
-              I've always been told I have very neat handwriting. There's
-              something about repeating words over and over until it's been
-              perfected. The motley forms of lettering projects span from
+              Lettering projects spanning from
               motivational posters, shirts, weddings, Christmas card and getting
               awareness out about the next political candidate.
             </p>

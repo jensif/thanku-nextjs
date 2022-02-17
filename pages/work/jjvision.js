@@ -33,12 +33,12 @@ export default function JJVision() {
           <div className="summary__credits">
             <ul>
               <li>Client:{" "}
-              <a href="https://www.jjvision.com/prioritizeyoureyes" target="_blank"> Johnson & Johnson Vision</a></li>
+              <a href="https://www.jjvision.com/prioritizeyoureyes" rel="noopener noreferrer"> Johnson & Johnson Vision</a></li>
               <li>Creative Director: Shane Santiago</li>
               <li>Role: Visual Design / Motion Graphics</li>
               <li>
                 Achievements:{" "}
-                <a href="https://winners.webbyawards.com/2021/social/social-content-series-campaigns/health-fitness-series-campaigns/176114/prioritize-your-eyes" target="_blank">
+                <a href="https://winners.webbyawards.com/2021/social/social-content-series-campaigns/health-fitness-series-campaigns/176114/prioritize-your-eyes" rel="noopener noreferrer">
                 Webby Nominee Nominee for Social
   Health & Fitness (Series & Campaigns) 2021
                 </a>, Gold & Silver W3 Award, Silver ADDY Award, and a Silver Anvil Award.
@@ -65,7 +65,7 @@ export default function JJVision() {
           importance of an eye exam, and ways to “Prioritize Your Eyes” at home
           until the viewer feels comfortable going back to the eye doctor for a comprehensive eye exam.
           Although you may not be able to
-          get an eye exam right now, your vision care doesn't need to go overlooked.
+          get an eye exam right now, your vision care doesn&apos;t need to go overlooked.
 
           </p>
         </div>
@@ -118,7 +118,7 @@ export default function JJVision() {
           />
         </div>
         <div className="details__button">
-          <a href="https://www.jjvision.com/sites/default/files/inline-files/J&J%20Vision%20PYE%20Kids%20Activity%20Book.pdf" target="_blank">
+          <a href="https://www.jjvision.com/sites/default/files/inline-files/J&J%20Vision%20PYE%20Kids%20Activity%20Book.pdf" rel="noopener noreferrer">
             <button>Download Activity Book</button>
           </a>
         </div>

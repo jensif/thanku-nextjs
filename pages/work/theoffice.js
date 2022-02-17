@@ -52,7 +52,7 @@ export default function TheOffice() {
           <div className="summary__description">
             <p>
               Documenting a two-day mural process by Nick V. for Shepherd, an
-              advertising agency's wall, to inspire creativity upon their
+              advertising agency’s wall, to inspire creativity upon their
               designers and clients. The completion of the project proved to be
               laborious and incorporated a lot of pizza. The days were recorded
               and condensed into a time lapse video and edited in Adobe

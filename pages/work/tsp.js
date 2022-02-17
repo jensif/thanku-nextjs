@@ -117,11 +117,10 @@ export default function TSP() {
         <div className="wrapper">
           <p>
             We were inspired by  {" "}
-              <a href="https://kstatic.googleusercontent.com/files/25badfc6b6d1b33f3b87372ff7545d79261520d821e6ee9a82c4ab2de42a01216be2156bc5a60ae3337ffe7176d90b8b2b3000891ac6e516a650ecebf0e3f866" target="_blank">
-            Google's Diversity Annual Report {" "}</a>
+              <a href="https://kstatic.googleusercontent.com/files/25badfc6b6d1b33f3b87372ff7545d79261520d821e6ee9a82c4ab2de42a01216be2156bc5a60ae3337ffe7176d90b8b2b3000891ac6e516a650ecebf0e3f866" rel="noopener noreferrer">
+            Google&apos;s Diversity Annual Report {" "}</a>
              and <a
               href="http://s2.q4cdn.com/447711729/files/doc_financials/2020/ar/CVSHealth_2020AR_FINAL.pdf"
-              target="_blank"
               rel="noopener noreferrer"
             >CVS Health</a> as way to visually build a story of how TSP
             is is making sustained impact on communities and youth, while still
@@ -148,7 +147,6 @@ export default function TSP() {
           intersection of design and science. You can view an additional evaluation report
           from my graduate days <a
            href="../files/cfa_library.pdf"
-           target="_blank"
            rel="noopener noreferrer"
          >on global warming</a>.
         </p>

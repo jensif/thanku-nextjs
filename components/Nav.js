@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
+import Image from "next/image";
 
 export default function Nav() {
   const [open, setOpen] = React.useState(false);
@@ -15,65 +16,61 @@ export default function Nav() {
         <div className="wrapper">
           <ul>
             <li className="home">
-              <Link href="/">
-                <a className="home__icon">
-                  <img src="/images/gem-icon.gif" alt="Gem" className="logo" />
-                </a>
+              <Link href="/" passHref className="home__icon">
+                  <Image src="/images/gem-icon.gif" alt="Gem" className="logo" />
+
               </Link>
-              <Link href="/">
-                <a className="home__name">Jen Arevalo</a>
+              <Link href="/" passHref className="home__name">Jen Arevalo
               </Link>
             </li>
           </ul>
           <ul>
             <li>
-              <Link href="/about">
-                <a>About</a>
+              <Link href="/about" passHref>
+                About
               </Link>
             </li>
             <li className="menu">
-              {/* Technically, this should be a `button`. */}
-              <a href="#" onClick={toggleMenuOpen}>
+              <Link href="#" passHref onClick={toggleMenuOpen}>
                 <i className="zmdi zmdi-menu" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
 
       <div id="nav" className={clsx("overlay", { open })}>
-        {/* Technically, this should be a `button`. */}
-        <a href="#" className="closebtn" onClick={toggleMenuOpen}>
+        <Link href="#" passHref className="closebtn" onClick={toggleMenuOpen}>
           <i className="zmdi zmdi-close" />
-        </a>
+        </Link>
         <div className="overlay-content">
           <div className="wrapper">
             <ul>
               <li>
-                <a href="/work/boundlessvr">Boundless VR</a>
+                <Link href="/work/boundlessvr" passHref>Boundless VR</Link>
               </li>
               <li>
-                <a href="/work/artfactory">Virginia ArtFactory</a>
+                <Link href="/work/artfactory" passHref>Virginia ArtFactory</Link>
               </li>
               <li>
-                <a href="/work/jjvision">Prioritize Your Eyes</a>
+                <Link href="/work/jjvision" passHref>Prioritize Your Eyes</Link>
               </li>
               <li>
-                <a href="/work/tsp">The Skatepark Project</a>
+                <Link href="/work/tsp" passHref>The Skatepark Project</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="/work/giftsar">wrapping.gifts App</a>
+                <Link href="/work/giftsar" passHref>wrapping.gifts App</Link>
               </li>
               <li>
-                <a href="/work/levelup">Level Up</a>
+                <Link href="/work/levelup" passHref>Level Up</Link>
               </li>
               <li>
-                <a href="/work/rfm">Ready For More?</a>
+                <Link href="/work/rfm" passHref>Ready For More?</Link>
               </li>
               <li>
-                <a href="/work/doglogapp">DogLog App</a>
+                <Link href="/work/doglogapp" passHref>DogLog App</Link>
               </li>
             </ul>
           </div>

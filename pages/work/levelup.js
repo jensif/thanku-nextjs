@@ -42,7 +42,7 @@ export default function LevelUp() {
             <ul>
               <li>
                 Client:{" "}
-                <a href="https://powertodecide.org/" target="_blank">
+                <a href="https://powertodecide.org/" rel="noopener noreferrer">
                   Power to Decide
                 </a>
               <li>(originally known as The National Campaign to Prevent Teen Pregnancy)
@@ -224,7 +224,7 @@ export default function LevelUp() {
             alt="Mobile and desktop view"
           />
           <div className="details__button">
-            <a href="https://web.archive.org/web/20170825094611/https://stayteen.org/levelup/" target="_blank">
+            <a href="https://web.archive.org/web/20170825094611/https://stayteen.org/levelup/" rel="noopener noreferrer">
               <button>Play Level Up!</button>
             </a>
           </div>

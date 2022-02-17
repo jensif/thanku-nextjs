@@ -35,7 +35,7 @@ export default function BoundlessVr() {
             <ul>
               <li>
                 Client:{" "}
-                <a href="https://www.enterpriseflorida.com/" target="_blank">
+                <a href="https://www.enterpriseflorida.com/" rel="noopener noreferrer">
                   Enterprise Florida
                 </a>
               </li>
@@ -48,7 +48,7 @@ export default function BoundlessVr() {
           </div>
           <div className="summary__description">
             <p>
-              Enterprise Florida, the state's public-private partnership for
+              Enterprise Florida, the state&apos;s public-private partnership for
               statewide economic development wanted to reposition the State as
               the top-tier place for business relocation and expansion. They
               believed for a business to reach its potential, it had to think
@@ -72,10 +72,10 @@ export default function BoundlessVr() {
       <div className="callout">
         <div className="wrapper">
           <p>
-            Presenting the VR hub for the Boundless campaign's 360 content
+            Presenting the VR hub for the Boundless campaign&apos;s 360 content
             in an engaging way encourages users to shift their
             perceptions of doing business in Florida. The VR/360 mobile
-            experience tapped into the viewer's innate need to discover and
+            experience tapped into the viewer&apos;s innate need to discover and
             explore by highlighting the ULA rocket launch process. C-level
             decision makers, site selectors, and consultants would feel as if
             the launch was at their fingertips.
@@ -96,7 +96,7 @@ export default function BoundlessVr() {
 
           </div>
           <div className="details__split">
-            
+
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function BoundlessVr() {
           height={600}
           />
           <div className="details__button">
-            <a href="http://web.archive.org/web/20180806193107/http://boundlessfloridavr.com/" target="_blank">
+            <a href="http://web.archive.org/web/20180806193107/http://boundlessfloridavr.com/" rel="noopener noreferrer">
               <button>Boundless FL VR</button>
             </a>
           </div>
@@ -138,7 +138,7 @@ export default function BoundlessVr() {
             The landing page would be the home base scaling the virtual reality
             content using the pre-existing branding of Florida The Future Is
             Here. It was vital to keep a low bounce rate on the site and keep
-            the user engaged with links to related content, and the "Contact Us"
+            the user engaged with links to related content, and the &quot;Contact Us&quot;
             CTA journey. The initial experience featured the ULA launch, and
             would follow with additional content as the 360 video library grows.
           </p>
