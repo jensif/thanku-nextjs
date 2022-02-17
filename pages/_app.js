@@ -11,26 +11,19 @@ export default function App({ Component, pageProps }) {
         <title>Jen Arevalo UI/X Designer & Developer</title>
       </Head>
       <Component {...pageProps} />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=UA-90347905-1"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-90347905-1');
+        `}
+      </Script>
     </>
   );
 }
-
-const MyDocument = () => {
-    return (
-      <div className="container">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=UA-90347905-1"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-90347905-1');
-          `}
-        </Script>
-      </div>
-    )
-  }
