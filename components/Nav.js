@@ -43,37 +43,38 @@ export default function Nav() {
       </nav>
 
       <div id="nav" className={clsx("overlay", { open })}>
-        <Link href="#" passHref className="closebtn" onClick={toggleMenuOpen}>
+        {/* Technically, this should be a `button`. */}
+        <a href="#" className="closebtn" onClick={toggleOpen}>
           <i className="zmdi zmdi-close" />
-        </Link>
+        </a>
         <div className="overlay-content">
           <div className="wrapper">
             <ul>
               <li>
-                <Link href="/work/boundlessvr" passHref>Boundless VR</Link>
+                <a href="/work/boundlessvr">Boundless VR</a>
               </li>
               <li>
-                <Link href="/work/artfactory" passHref>Virginia ArtFactory</Link>
+                <a href="/work/artfactory">Virginia ArtFactory</a>
               </li>
               <li>
-                <Link href="/work/jjvision" passHref>Prioritize Your Eyes</Link>
+                <a href="/work/jjvision">Prioritize Your Eyes</a>
               </li>
               <li>
-                <Link href="/work/tsp" passHref>The Skatepark Project</Link>
+                <a href="/work/tsp">The Skatepark Project</a>
               </li>
             </ul>
             <ul>
               <li>
-                <Link href="/work/giftsar" passHref>wrapping.gifts App</Link>
+                <a href="/work/giftsar">wrapping.gifts App</a>
               </li>
               <li>
-                <Link href="/work/levelup" passHref>Level Up</Link>
+                <a href="/work/levelup">Level Up</a>
               </li>
               <li>
-                <Link href="/work/rfm" passHref>Ready For More?</Link>
+                <a href="/work/rfm">Ready For More?</a>
               </li>
               <li>
-                <Link href="/work/doglogapp" passHref>DogLog App</Link>
+                <a href="/work/doglogapp">DogLog</a>
               </li>
             </ul>
           </div>
