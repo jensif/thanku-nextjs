@@ -11,7 +11,7 @@ import iType from "../../public/images/work/artfactory-type.jpg";
 import iWeb from "../../public/images/work/artfactory-web.jpg";
 import iFinal from "../../public/images/work/artfactory-final.jpg";
 import iPattern from "../../public/images/work/artfactory-pattern.jpg";
-import iQA from "../../public/images/work/artfactory-QA.jpg";
+import iQA from "../../public/images/work/artfactory-qa.jpg";
 
 export default function ArtFactory() {
   return (
