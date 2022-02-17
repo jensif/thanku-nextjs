@@ -1,21 +1,26 @@
 {
-  "private": true,
+  "name": "jenarevalo",
+  "version": "1.0.0",
+  "description": "Jen Arevalo's personal website",
+  "author": "Jen Arevalo <>",
+  "contributors": [
+    "Julian Bravard"
+  ],
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "clsx": "^1.1.1",
-    "next": "^12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-player": "^2.9.0",
-    "react-youtube": "^7.14.0"
-  },
-  "devDependencies": {
-    "eslint": "8.7.0",
-    "eslint-config-next": "^12.0.8"
+    "test": "jest",
+    "format": "prettier --write ."
   }
 }
