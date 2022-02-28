@@ -152,7 +152,7 @@ Etsy, and Adobe. Sketches were developed to portray the new look and feel of the
           the site for calendar of events, ticket sales, and workshops. We would
           design mobile, tablet, and desktop verions of the site with WordPress as the publishing tool for the content management
           system. Bravely built custom templates for the nonprofit to use in
-          modifying the content. The team also levereaged various plugins
+          modifying the content. The team also leveraged various plugins
           to enhance the experience. To assist Jeff in development, a UI kit (pattern library)
           was developed to be able to compile any additional/outlier templates.</p>
                 </div>

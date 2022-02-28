@@ -33,7 +33,8 @@ function About() {
             </p>
             <p>
               In addition to designing digital products, I also serve on the advisory board for
-              AIGA Jacksonville — a local chapter of the nation&apos;s largest community of design
+              {" "}
+              <Link href="/work/alwayssummer">AIGA Jacksonville</Link> — a local chapter of the nation&apos;s largest community of design
               advocates, and volunteer my time as an organizer for AIGA Unidos to {" "}
               <Link href="https://www.youtube.com/watch?v=ZyVku61QSlo&ab_channel=AIGAUnidos">
                 empower Latin and Hispanic creatives.
