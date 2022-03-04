@@ -6,7 +6,7 @@ import Page from "../components/Page";
 import iBoundless from "../public/images/work/boundlessvr-thumb.jpg";
 import iArtFactory from "../public/images/work/artfactory-thumb.jpg";
 import iJJV from "../public/images/work/jjcampaign-thumb.jpg";
-import iTSP from "../public/images/work/tsp-thumb.jpg";
+import iWorkshop from "../public/images/work/workshop-thumb.jpg";
 import iGiftsAR from "../public/images/work/giftsar-thumb.jpg";
 import iLevelUp from "../public/images/work/levelup-thumb.jpg";
 import iReadyForMore from "../public/images/work/rfm-thumb.jpg";
@@ -79,17 +79,17 @@ export default function Home() {
             </Link>
           </li>
           <li className="gallery__project">
-            <Link href="/work/tsp">
+            <Link href="/work/workshop">
               <a>
                 <Image
-                  src={iTSP}
+                  src={iWorkshop}
                   placeholder="blur"
-                  title="Tony Hawk Skapteboard Project"
-                  alt="Tony Hawk Skapteboard Project"
+                  title="Local Board Retreat"
+                  alt="Local Board Retreat"
                 />
                 <figure>
-                  <h4>The Skatepark Project</h4>
-                  <h5>Evaluation Design</h5>
+                  <h4>Local Board Retreat</h4>
+                  <h5>Strategy / Leadership / Workshop Facilitation</h5>
                 </figure>
               </a>
             </Link>

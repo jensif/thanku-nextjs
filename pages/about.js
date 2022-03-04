@@ -46,7 +46,9 @@ function About() {
             <h1>A few of my favorite things:</h1>
             <p>
               Design Thinking / Experience Mapping /
-              Insights and Research / Facilitating Workshops / Internet of Things / {" "}
+              {" "}
+              <Link href="/work/tsp"><a>Insights and Research</a></Link> / {" "}
+              <Link href="/work/workshop"><a>Facilitating Workshops</a></Link> / Internet of Things / {" "}
               <Link href="/work/illustrations">
                 <a>Illustrating</a>
               </Link>{" "}

@@ -31,7 +31,7 @@ export default function GiftsAR() {
         </div>
         <div className="summary__credits">
           <ul>
-            <li>Role: Mobile Development, Strategy, Visual Design</li>
+            <li>Role: Mobile Development, Strategy, Visual Design, Conceptual</li>
           </ul>
         </div>
         <div className="summary__description">
@@ -52,7 +52,7 @@ export default function GiftsAR() {
         <div className="wrapper">
           <p>
             Powered by Apple’s ARKit framework, by positioning your camera over the object,
-            the app automatically genarates the approximate measurements, then provides the
+            the app automatically generates the approximate measurements, then provides the
             length and width of the material needed to cover your gift.
           </p>
           <p>

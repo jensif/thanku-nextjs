@@ -60,7 +60,7 @@ export default function Nav() {
                 <a href="/work/jjvision">Prioritize Your Eyes</a>
               </li>
               <li>
-                <a href="/work/tsp">The Skatepark Project</a>
+                <a href="/work/workshop">Local Board Retreat</a>
               </li>
             </ul>
             <ul>
